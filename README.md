@@ -32,3 +32,11 @@
    10. create route for /api/products
    11. return products
    12. run npm start
+8. Fetch Products From Backend
+   1. set proxy in package.json
+      This allows the app to "pretend" it is making requests from the same port of the server
+      프록시: 네트워크에 긴접적으로 접속할 수 있게 해주는 프로그램
+   2. npm install axios
+   3. use state hook
+   4. use effect hook
+   5. use reducer hook
