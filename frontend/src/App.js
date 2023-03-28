@@ -10,12 +10,10 @@ function App() {
           <Link to="/">amazona</Link>
         </header>
         <main>
-          hello
           <Routes>
             <Route path="/product/:slug" element={<ProductScreen />} />
             <Route path="/" element={<HomeScreen />} />
           </Routes>
-          hello2
         </main>
       </div>
     </BrowserRouter>
