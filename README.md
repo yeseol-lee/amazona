@@ -45,3 +45,6 @@
    2. update fetch data
    3. get state from useReducer
       useReducer: useState보다 복잡한 상태에 사용함.
+10. Add bootstrap UI Framework
+    1. npm install react-bootstrap bootstrap
+    2. update App.js
