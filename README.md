@@ -61,3 +61,11 @@
     2. use spinner component
     3. create message component
     4. create utils.js to define getError function
+       props.children: special prop, automatically passed to every component. 태그와 태그 사이의 모든 내용을 표시하기 위해 사용되는 특수한 props
+14. Implement Add To Cart
+    1. Create React Context
+    2. define reducer
+    3. create store provider
+    4. implement add to cart button click handler
+       리액트 context는 앱의 모든 컴포넌트에서 사용할 수 있는 데이터를 전달할 때 유용합니다.
+       리액트 context는 리액트 컴포넌트를 위한 전역 변수와 같다고 생각하면 됩니다.
